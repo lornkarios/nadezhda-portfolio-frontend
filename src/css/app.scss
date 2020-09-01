@@ -1,0 +1,24 @@
+@import 'fonts';
+@import 'content';
+@import 'footer';
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  font-family: Geometria;
+  color: #232B35;
+}
+
+body a{
+  color: #232B35;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 120%;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

@@ -1,0 +1,49 @@
+.contact-block {
+  padding: 106px 75px 0 75px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 758px) {
+  .contact-block {
+    padding: 20px;
+  }
+}
+.contact-block {
+  .header {
+    font-family: Geometria-Bold;
+    font-size: 49px;
+    line-height: 76px;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+  }
+  @media (max-width: 960px) {
+    .header{
+      font-size: 34px;
+      line-height: initial;
+    }
+  }
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.contact {
+  .name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+  }
+
+  a.value {
+    text-decoration: none;
+    margin: 5px 0;
+    display: block;
+  }
+}

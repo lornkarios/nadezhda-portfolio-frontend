@@ -1,0 +1,48 @@
+@import 'cards';
+
+.content {
+  flex: 1 0 auto ;
+  padding: 118px 128px 83px 266px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1051px) {
+  .content {
+    align-items: center;
+  }
+}
+
+@media (max-width: 1774px) {
+  .content {
+    padding: 118px 30px 83px 30px;
+  }
+}
+h1{
+  font-family: Geometria-Bold;
+  font-size: 64px;
+  line-height: 76px;
+}
+.main-name{
+   margin-top: 20px;
+}
+
+.cards-block-header {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: Geometria;
+}
+
+@media (max-width: 414px) {
+  h1 {
+    font-size: 43px;
+  }
+  .cards-block-header{
+    font-size: 20px;
+  }
+  .content {
+    padding: 30px 20px;
+  }
+}

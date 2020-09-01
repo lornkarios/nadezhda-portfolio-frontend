@@ -1,0 +1,49 @@
+
+.cards-block {
+  display: flex;
+  flex-wrap: wrap;
+  margin:-47px -20px ;
+}
+@media (max-width: 1051px) {
+  .cards-block {
+    justify-content: center;
+  }
+}
+.cards-block {
+
+  .card-block {
+    flex: 0 1 476px;
+    display: flex;
+    flex-direction: column;
+    margin:47px 20px ;
+  }
+
+}
+
+
+.card-block {
+  .img {
+    width: 100%;
+    display: block;
+    height: 260px;
+    margin-bottom: 27px;
+  }
+
+  .rubric-date {
+    margin-bottom: 10px
+  }
+
+  span.circle {
+    color: #C4C4C4;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 120%;
+  }
+
+  .description {
+    margin-top: 27px;
+  }
+}

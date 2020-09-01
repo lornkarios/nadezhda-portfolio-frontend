@@ -1,0 +1,49 @@
+@import 'contacts';
+
+.footer {
+  height: 610px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .footer{
+    height: 305px;
+  }
+}
+
+
+.footer {
+  .left-block {
+    flex: 1 1 836px;
+    justify-content: flex-end;
+    display: flex;
+    position: relative;
+
+  }
+
+  .left-block {
+    .left-line {
+      position: absolute;
+      width: 2px;
+      height: 100px;
+      background: #D8D8D8;
+      top: 104px;
+      left: 80px;
+    }
+    @media (max-width: 1294px) {
+      .left-line{
+        display: none;
+      }
+    }
+
+
+  }
+
+  .right-img {
+    background: url("../images/footer-right.jpg") no-repeat;
+    display: block;
+    flex: 1 1 50%;
+  }
+}
