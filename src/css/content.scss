@@ -7,17 +7,13 @@
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 1051px) {
-  .content {
-    align-items: center;
-  }
-}
-
 @media (max-width: 1902px) {
   .content {
+    align-items: center;
     padding: 118px 30px 83px 30px;
   }
 }
+
 h1{
   font-family: Geometria-Bold;
   font-size: 64px;
