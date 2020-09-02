@@ -16623,6 +16623,10 @@ window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jqu
 
 __webpack_require__(/*! @fancyapps/fancybox */ "./node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js");
 
+$(window).on('load', function () {
+  $('.loaderArea').delay(1000).fadeOut('slow');
+});
+
 /***/ }),
 
 /***/ "./src/css/app.scss":
