@@ -30,5 +30,10 @@
     "sass": "^1.26.10",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
+    "jquery": "^3.5.1",
+    "vue": "^2.6.12"
   }
 }

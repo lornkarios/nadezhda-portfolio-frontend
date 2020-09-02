@@ -17,6 +17,12 @@
     flex-direction: column;
     margin:47px 20px ;
   }
+  .img-block{
+    flex: 0 1 476px;
+    display: block;
+    height: 260px;
+    margin:47px 20px;
+  }
 
 }
 
@@ -31,10 +37,6 @@
 
   .rubric-date {
     margin-bottom: 10px
-  }
-
-  span.circle {
-    color: #C4C4C4;
   }
 
   .name {

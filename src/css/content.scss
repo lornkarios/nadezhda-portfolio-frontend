@@ -1,4 +1,5 @@
 @import 'cards';
+@import 'detail-top';
 
 .content {
   flex: 1 0 auto ;
@@ -8,8 +9,10 @@
   flex-direction: column;
 }
 @media (max-width: 1902px) {
-  .content {
-    align-items: center;
+  h1,.main-name,.cards-block-header {
+    align-self: center;
+  }
+  .content{
     padding: 118px 30px 83px 30px;
   }
 }
@@ -29,6 +32,10 @@ h1{
   font-weight: bold;
   font-size: 24px;
   font-family: Geometria;
+}
+
+span.circle {
+  color: #C4C4C4;
 }
 
 @media (max-width: 414px) {
