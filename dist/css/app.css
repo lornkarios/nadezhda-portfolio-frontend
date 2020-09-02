@@ -112,6 +112,7 @@ section.top-block .right-block {
 
 .left-block .project-link {
   margin-top: 15px;
+  font-weight: bold;
 }
 
 .left-block .project-description {
@@ -267,7 +268,7 @@ span.circle {
 }
 
 .contact a.value {
-  text-decoration: none;
+  font-weight: bold;
   margin: 5px 0;
   display: block;
 }
@@ -329,7 +330,6 @@ body {
 
 body a {
   color: #232B35;
-  font-weight: bold;
   font-size: 16px;
   line-height: 120%;
   text-decoration: none;
